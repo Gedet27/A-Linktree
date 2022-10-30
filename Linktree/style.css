@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif, 'Open Sans';
+    letter-spacing: 2px;
+
+}
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    height: auto;
+    max-width: 40px;
+    border-radius: 50%;
+
+}
+.profilename{
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+
+
+}
+.links{
+    text-align: center;
+    margin-top: 20px;
+    border: 2px solid yellow;
+    border-width: 2px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 100;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+a:hover{
+    color: blue;
+    background-color: red;
+
+}
